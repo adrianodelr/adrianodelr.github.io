@@ -17,12 +17,12 @@ layout: default
 <div id="main" role="main">
   <div class="publication-flex" style="display: flex; align-items: flex-start; gap: 0em;">
     {% if page.header.teaser %}
-    <img src="{{ page.header.teaser }}" alt="" style="max-width: 220px; max-height: 180px; display: block; margin: 0 auto;">
+    <img src="{{ page.header.teaser }}" alt="" style="max-width: 220px; max-height: 180px; display: block; margin: 0 auto; ">
     {% endif %}
     <article class="page" itemscope itemtype="http://schema.org/CreativeWork" style="flex: 1;">
       <div class="page__inner-wrap">
         <div class="publication-details">
-          <h1 class="archive__item-title" itemprop="headline" style="margin-top:0;">
+          <h1 class="archive__item-title" itemprop="headline" style="margin-top:0; margin-bottom:0.5em;">
             {{ page.title }}
           </h1>
           {% if page.authors %}
@@ -31,18 +31,20 @@ layout: default
             </div>
           {% endif %}
           {% if page.venue %}
-            <div class="publication-venue" style="margin-bottom: 1em;">
+            <div class="publication-venue" style="margin-bottom: 0.5em;">
               <i>{{ page.venue }}</i>
               {% if page.date %}
                 , {{ page.date | date: "%Y" }}
               {% endif %}
             </div>
           {% endif %}
+          {% if page.abstract %}
+            <div class="publication-abstract" style="margin-bottom: 0.5em;">
+              <strong>Abstract:</strong> {{ page.abstract}}
+            </div>
+          {% endif %}
           <section class="page__content" itemprop="text">
             {{ content }}
-            {% if page.citation %}
-              <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-            {% endif %}
             {% if page.slidesurl %}
               <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
             {% endif %}

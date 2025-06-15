@@ -10,9 +10,8 @@ venue: ' Advances in Robot Kinematics (ARK)'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+abstract: Wrist mechanisms in humanoid robots play a crucial role by fundamentally influencing the dexterity of robotic hands. Recent designs often exploit parallel mechanisms due to their ability to transmit high loads while offering the possibility to minimize peripheral inertia of the arms. This often comes at the cost of reduced workspace. In this paper, a novel wrist mechanism of type <em>2SPU+2RSU+1U</em> is presented, with the aim to achieve human-like range of motion with good force transmission capabilities in a compact form. An in-depth kinematic analysis of the new parallel mechanism is presented including solutions to both forward and inverse kinematics and a comparison to the traditional <em>2SPU+1U</em>  mechanism is drawn, showing increased dexterity and range of motion. 
 header:
   teaser: /images/overview_wrist.png
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
