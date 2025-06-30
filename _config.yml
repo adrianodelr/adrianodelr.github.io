@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "Me.jpg"
-  name             : "Adriano del Río" # Your name, e.g. "John Smith"
+  name             : # "Adriano del Río" # Your name, e.g. "John Smith"
   pronouns         : # example: "she/her"  
-  bio              : "I like controlling robots and building stuff."
+  bio              : "Robotics researcher interested in optimal and data-driven control"
   location         : # "Bern"
   employer         : # "Thales"
   uri              : # URL
